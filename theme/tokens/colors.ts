@@ -75,3 +75,21 @@ export const vividYellow = {
   800: 'hsl(22, 82%, 39%)',
   900: 'hsl(15, 86%, 30%)',
 }
+
+export const muiGrey = {
+  50: '#eceeef',
+  100: '#d0d4d8',
+  200: '#b0b7be',
+  300: '#909aa3',
+  400: '#798490',
+  500: '#616e7c',
+  600: '#596674',
+  700: '#4f5b69',
+  800: '#45515f',
+  900: '#333f4c',
+  A100: '#9ecbff',
+  A200: '#6bafff',
+  A400: '#3893ff',
+  A700: '#1f85ff',
+  contrastDefaultColor: 'light',
+}

@@ -1,5 +1,6 @@
 import {
   coolGrey,
+  muiGrey,
   vividCyan,
   vividPink,
   vividPurple,
@@ -25,10 +26,7 @@ const palette = {
   success: { ...vividPurple, main: vividPurple['500'] },
   warning: { ...vividYellow, main: vividYellow['500'] },
   info: { ...vividCyan, main: vividCyan['500'] },
-  gray: {
-    ...coolGrey,
-    main: coolGrey['500'],
-  },
+  grey: muiGrey,
 }
 
 export default palette
