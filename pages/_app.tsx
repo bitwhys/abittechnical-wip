@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
-import { ThemeProvider } from '@mui/material/styles'
-import CssBaseline from '@mui/material/CssBaseline'
 import { CacheProvider, type EmotionCache } from '@emotion/react'
 import { createEmotionCache } from '@/utils'
-import theme from '@/theme'
-import Header from '@/components/Header'
+import { ThemeProvider } from '@/theme'
+import Header from '@/ui/Header'
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache()
@@ -19,8 +17,7 @@ const MyApp = ({ Component, pageProps, emotionCache = clientSideEmotionCache }: 
     <Head>
       <meta name="viewport" content="initial-scale=1, width=device-width" />
     </Head>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <ThemeProvider>
       <Header />
       <Component {...pageProps} />
     </ThemeProvider>

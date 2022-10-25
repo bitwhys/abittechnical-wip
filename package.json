@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write **/*.{html,ts,tsx,js,css,json}"
+    "format": "prettier --write **/*.{html,ts,tsx,js,css,json}",
+    "commit": "cz"
   },
   "dependencies": {
     "@emotion/cache": "^11.10.3",
